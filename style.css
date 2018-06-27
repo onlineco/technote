@@ -51,6 +51,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
 Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 --------------------------------------------------------------*/
 
+/*----後藤つけたし --*/
+#primary ul, ol{
+	padding-left:20px;
+}
+
+
+
 html {
 	font-family: sans-serif;
 	line-height: 1.15;
@@ -456,7 +463,7 @@ h2,
 	color: #666;
 	font-size: 20px;
 	font-size: 1.25rem;
-	font-weight: 300;
+	font-weight: bold;
 }
 
 h3 {
@@ -1523,14 +1530,16 @@ body {
 #page {
 	position: relative;
 	word-wrap: break-word;
+	width:1000px;
+	margin: 0px auto;
 }
 
 .wrap {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 700px;
-	padding-left: 2em;
-	padding-right: 2em;
+	max-width: 1000px;
+/*	padding-left: 2em;
+	padding-right: 2em;*/
 }
 
 .wrap:after {
@@ -1548,7 +1557,8 @@ body {
 }
 
 .site-header {
-	background-color: #fafafa;
+/*	background-color: #fafafa;*/
+	border: solid #dddddd 1px
 	position: relative;
 }
 
@@ -1642,6 +1652,7 @@ body:not(.title-tagline-hidden) .site-branding-text {
 
 .custom-header {
 	position: relative;
+	border-bottom:1px solid #dddddd;
 }
 
 .has-header-image.twentyseventeen-front-page .custom-header,
@@ -2085,6 +2096,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 740px;
+	padding-right:20px;
 }
 
 .single-featured-image-header {
@@ -3350,19 +3362,20 @@ p > object:only-child {
 
 	.wrap {
 		max-width: 1000px;
-		padding-left: 3em;
-		padding-right: 3em;
+	/*	padding-left: 3em;
+		padding-right: 3em;*/
 	}
 
 	.has-sidebar:not(.error404) #primary {
 		float: left;
-		width: 58%;
+		width: 75%;
+		padding-right:20px;
 	}
 
 	.has-sidebar #secondary {
 		float: right;
 		padding-top: 0;
-		width: 36%;
+		width: 25%;
 	}
 
 	.error404 #primary {
@@ -3779,7 +3792,7 @@ p > object:only-child {
 	/* Posts */
 
 	.site-content {
-		padding: 5.5em 0 0;
+		/*padding: 1em 0 0;*/
 	}
 
 	.single-post .entry-title,
