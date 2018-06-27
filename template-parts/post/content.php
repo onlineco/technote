@@ -65,6 +65,16 @@
 		) );
 		?>
 	</div><!-- .entry-content -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- OCテックノート　ページ下 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7263266356504692"
+     data-ad-slot="9166103883"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 	<?php
 	if ( is_single() ) {

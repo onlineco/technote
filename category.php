@@ -31,14 +31,15 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<ul>
+			<ul class="category_title">
 			<?php
 			if ( have_posts() ) : query_posts($query_string.'&posts_per_page=100');
 
 				/* Start the Loop */
 				while ( have_posts() ) :
 					the_post();
-					?><li><?php the_time('Y/m/d'); ?> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li><?php
+					?><li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>   
+						<span class="category_date">(<?php the_time('Y/m/d'); ?>)</span></li><?php
 
 
 				endwhile;

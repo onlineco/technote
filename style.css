@@ -56,6 +56,14 @@ Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 	padding-left:20px;
 }
 
+.category_title li{
+	font-weight:bold;
+	font-size:14px;
+	padding: 10px;
+	list-style-type:none;
+	border-bottom: 1px solid #cccccc;
+	margin-right:20px;
+}
 
 
 html {
@@ -4008,8 +4016,8 @@ p > object:only-child {
 	/* Widgets */
 
 	h2.widget-title {
-		font-size: 11px;
-		font-size: 0.6875rem;
+		font-size: 16px;
+		/*font-size: 0.6875rem;*/
 		margin-bottom: 2em;
 	}
 
