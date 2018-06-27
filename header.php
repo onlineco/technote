@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * The header for our theme
  *
@@ -18,7 +18,8 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-
+<!--Shortcut icon-->
+	<link rel="shortcut icon" href="http://oc-technote.com/wp-content/themes/oc/favicon.gif" />
 <?php wp_head(); ?>
 <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 </head>
