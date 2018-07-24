@@ -56,6 +56,12 @@ Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 	padding-left:20px;
 }
 
+.footer-widget-1 .widget_text{
+	position:relative;
+	float:left;
+	margin-right:20px
+}
+
 .category_title li{
 	font-weight:bold;
 	font-size:14px;
@@ -1538,16 +1544,16 @@ body {
 #page {
 	position: relative;
 	word-wrap: break-word;
-	width:1000px;
-	margin: 0px auto;
+	/*width:1000px;
+	margin: 0px auto;*/
 }
 
 .wrap {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 1000px;
-/*	padding-left: 2em;
-	padding-right: 2em;*/
+	max-width: 700px;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 .wrap:after {
@@ -2318,18 +2324,29 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 .site-footer {
 	border-top: 1px solid #eee;
+	padding-top: 30px;
+    background-color: #ae3c42;
+	
+}
+
+.site-footer .widget-column .textwidget a{
+	color:#FFF;
+	text-decoration:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	
 }
 
 .site-footer .wrap {
-	padding-bottom: 1.5em;
-	padding-top: 2em;
+	/*padding-bottom: 1.5em;
+	padding-top: 2em;*/
 }
 
 /* Footer widgets */
 
 .site-footer .widget-area {
-	padding-bottom: 2em;
-	padding-top: 2em;
+	/*padding-bottom: 2em;
+	padding-top: 2em;*/
 }
 
 /* Social nav */
@@ -4028,11 +4045,22 @@ p > object:only-child {
 		font-size: 0.875rem;
 		line-height: 1.6;
 		margin-top: 3em;
+		background-color: #ae3c42;	
+		padding:30px;
+	}
+	
+	
+	.site-footer .widget-column .textwidget a{
+		color:#FFF;
+		text-decoration:none;
+		-webkit-box-shadow:none;
+		box-shadow:none;
+		
 	}
 
 	.site-footer .widget-column.footer-widget-1 {
 		float: left;
-		width: 36%;
+		/*width: 36%;*/
 	}
 
 	.site-footer .widget-column.footer-widget-2 {
@@ -4051,6 +4079,7 @@ p > object:only-child {
 		float: left;
 		padding: 0.7em 0 0;
 		width: 58%;
+		color:white;
 	}
 
 	.social-navigation + .site-info {
